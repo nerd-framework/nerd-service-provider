@@ -1,6 +1,6 @@
 {
   "name": "nerd-framework/nerd-service-provider",
-  "description": "",
+  "description": "Component used to create service providers",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
