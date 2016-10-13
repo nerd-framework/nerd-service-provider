@@ -8,6 +8,9 @@
     "squizlabs/php_codesniffer": "^2.7",
     "satooshi/php-coveralls": "^1.0"
   },
+  "require": {
+    "nerd-framework/nerd-contracts": "dev-master"
+  },
   "license": "MIT",
   "authors": [
     {
@@ -15,9 +18,6 @@
       "email": "roman.lakhtadyr@gmail.com"
     }
   ],
-  "require": {
-    "nerd-framework/nerd-contracts": "dev-master",
-  },
   "autoload": {
     "psr-4": {
       "": "src/",

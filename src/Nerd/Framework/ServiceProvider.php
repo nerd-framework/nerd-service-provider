@@ -2,8 +2,7 @@
 
 namespace Nerd\Framework;
 
-use Nerd\Framework\ApplicationContract;
-use Nerd\Framework\ServiceProviderContract;
+use Nerd\Framework\Services\ServiceProviderContract;
 
 abstract class ServiceProvider implements ServiceProviderContract
 {
