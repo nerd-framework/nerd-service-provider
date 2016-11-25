@@ -6,18 +6,18 @@ use Nerd\Framework\Services\ServiceProviderContract;
 
 abstract class ServiceProvider implements ServiceProviderContract
 {
-    private $application;
+    private $app;
 
-    public function __construct(ApplicationContract $application)
+    public function __construct(ApplicationContract $app)
     {
-        $this->application = $application;
+        $this->app = $app;
     }
 
     /**
      * @return ApplicationContract
      */
-    protected function getApplication()
+    protected function getApp()
     {
-        return $this->application;
+        return $this->app;
     }
 }
