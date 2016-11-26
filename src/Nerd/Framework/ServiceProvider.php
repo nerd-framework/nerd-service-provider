@@ -15,4 +15,14 @@ abstract class ServiceProvider implements ServiceProviderContract
     {
         $this->app = $app;
     }
+
+    public function boot()
+    {
+        //
+    }
+
+    public function register()
+    {
+        //
+    }
 }
